@@ -1,0 +1,124 @@
+/*Colors and fonts */
+h1, h2, h3, body, a {
+color: rgb(58, 6, 6);
+}
+
+body {
+	font-family: Work Sans;
+	font-size: 24px;
+	background-color: rgb(241, 198, 198);
+}
+@media (max-width: 540px){
+	body{
+		font-size: 16px;
+	}
+}
+
+h1 {
+  font-family: "Rubik Puddles", serif;
+  font-weight: 500;
+  font-size: 300%;
+  letter-spacing: 8px;
+  font-style: normal;
+}
+
+@media (max-width: 540px){
+	h1{
+		font-size: 200%;
+	}
+}
+
+h2 {
+	font-size: 32px;
+	font-weight: 700;
+}
+
+a{
+	text-decoration: none;
+	font-weight: 500;
+	transition: color 0.3s ease;
+}
+a:hover{
+color: rgb(255, 255, 198);
+}
+
+/*Custom design with class */
+
+#profile {
+  width: 200px;
+  border-radius:50%;
+}
+
+.img-rectangle{
+  width: 60%;
+  border-radius: 4px;
+  box-shadow: 10px 10px 10px rgba(0, 0,0,0.1);
+  border: 2px solid black;
+}
+
+.container{
+	width: 700px;
+	margin: 40px auto;
+}
+
+@media (max-width: 720px) {
+	.container{
+		width: 500px;
+	}
+}
+
+@media (max-width: 540px) {
+	.container{
+		width: 300px;
+	}
+}
+
+.card-pink{
+	background-color: rgb(241, 198, 198);
+	padding: 40px;
+	box-shadow: 0px 10px 30px rgba(0,0,0,0.1);
+	border-radius: 4px;
+	margin: 20px 0px;
+	text-align: center;
+	transition: background-color 0.3s ease;
+}
+.card-pink:hover{
+	background-color: rgb(221, 178, 178);
+}
+
+.btn-yellow{
+	background-color: rgb(58, 6, 6);
+	color: rgb(255, 255, 198);
+	padding: 15px 20px;
+	border-radius: 4px;
+	font-size: 16px;
+	transition: background-color 0.3s ease;	
+}
+.btn-yellow:hover{
+	background-color: rgb(255, 255, 198);
+	color: rgb(58, 6, 6);
+}
+
+@media (max-width: 540px) {
+	.btn-yellow{
+		padding: 8px 10px;
+		font-size: 10px;
+	}
+}
+
+.list-inline{
+	list-style: none;
+	padding-left: 0px;
+}
+
+.list-inline li {
+	display: inline;
+	padding: 10px;
+}
+.list-inline i{
+	font-size: 40px;
+}
+
+#introduction p{
+	margin-bottom: 40px;
+}
